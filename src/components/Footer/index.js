@@ -18,7 +18,7 @@ const MyComponent = () => {
     <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl text-center">
         <a
-          href="#"
+          href="#Home"
           class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
         >
           <img
@@ -37,7 +37,7 @@ const MyComponent = () => {
         </div>
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{" "}
-          <a href="#" class="hover:underline">
+          <a href="#Home" class="hover:underline">
             Ahead™ Koushik Koppolu
           </a>
           . All Rights Reserved.
