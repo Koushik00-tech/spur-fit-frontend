@@ -1,0 +1,266 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+ .first-container{
+    background-color:rgb(223, 189, 223);
+    border-radius:8px;
+    /* width:100vw;  */
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*
+.text-container-1{
+    width:60%;
+}
+.head-text{
+    font-size: 50px;
+}
+*/
+.mobile-image{
+   border-radius: 10px;
+}
+
+.star-container{
+    display:flex;
+    width:300px;
+    align-items: center;
+    justify-content: space-between;
+    height:50px;
+    padding-left: 100px;
+} 
+
+.app-star-container{
+    display:flex;
+    width:50%;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.star-icon{
+    color:gold;
+    font-size:30px;
+}
+
+.download-container{
+    height:70px;
+    width:120px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius:8px;
+    font-size: 10px;
+    margin-right: 20px;
+
+}
+
+
+.second-block{
+    width:100vw;
+    height:40vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+}
+
+.second-heading{
+    width:fit-content;
+    font-size:30px;
+    font-weight:700;
+    font-family:"Roboto";
+}
+
+.second-description{
+    width:fit-content;
+    font-size:20px;
+    font-weight:400;
+    font-family:"Roboto";
+
+}
+
+.third-block1{
+    width:100vw;
+    height:40vh;
+}
+
+.third-block-description-containers{
+    width: max-content;
+    /* height:70%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.block3-cont-1{
+    background-color:aquamarine;
+    /* width:50%; */
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+    /* overflow: hidden;
+    word-wrap: break-word; */
+}
+
+.block3-cont-2{
+    background-color:antiquewhite;
+    /* width:50%; */
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+}
+
+.block3-cont-3{
+    background-color:rgb(255, 0, 136);
+    /* width:50%; */
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+}
+
+.block3-cont-4{
+    background-color:rgb(192, 151, 160);
+    /* overflow: hidden; */
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+}
+
+.emoji{
+    font-size:30px;
+    color:gold;
+} 
+
+
+
+/* Responsive styles using Tailwind CSS */
+
+/* Adjust width and spacing for large screens */
+@media (min-width: 1024px) {
+    .first-container {
+      height: 100vh;
+      padding-left: 20px;
+      padding-top: 30px;
+      flex-direction: row;
+    }
+    .text-container-1 {
+      width: 80%; /* Reduce width for better fit */
+    }
+    .head-text {
+      font-size: 50px; /* Reduce font size */
+    }
+    .mobile-image {
+      width: 30%; /* Increase width for better visibility */
+      height: 100%;
+      /* margin-right: 200px; */
+      /* margin-top: 20px; */
+      /* margin: 20px; */
+       /* Let the height adjust automatically */
+    }
+    .stars-container {
+      width: 300px;
+    }
+  }
+  
+  /* Adjust width and spacing for medium screens */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .first-container {
+      height: 100vh;
+    }
+    .text-container-1 {
+      width: 50%; /* Reduce width for better fit */
+    }
+    .head-text {
+      font-size: 40px; /* Reduce font size */
+    }
+    .mobile-image {
+      width: auto; /* Increase width for better visibility */
+      height: auto; /* Let the height adjust automatically */
+    }
+    .stars-container {
+      width: 250px; /* Adjust width as needed */
+    }
+  }
+  
+  /* Adjust width and spacing for small screens */
+  @media (max-width: 639px) {
+    .first-container {
+      height: 100vh;
+      display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    }
+    .text-container-1 {
+      width: 100%; 
+      font-size: 10px;
+      /* Reduce width for better fit */
+    }
+    .head-text {
+      font-size: 30px; /* Reduce font size */
+    }
+    .mobile-image {
+      width: 50%; /* Increase width for better visibility */
+      height: auto; /* Let the height adjust automatically */
+     padding-right: 50px;
+     padding-top: 50px;
+    }
+    .stars-container {
+      width: 200px;
+      
+      /* Adjust width as needed */
+    }
+    .download-container{
+        /* height:120px; */
+        width:700px ;
+        background-color:black;
+        color:white;
+        font-weight:bold;
+        font-family: "Roboto";
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        /* padding:10px; */
+        border-radius:8px;
+        font-size: 10px;
+        margin-right: 20px;
+        /* overflow: auto; */
+    
+    }
+    .second-block{
+        /* width:100vw;
+        height:40vh; */
+        display:flex;
+        flex-direction: column;
+        /* justify-content: space-between; */   
+        align-items: center;
+        /* padding:50px; */
+    }
+    .appStore{
+      font-size: 15px;
+    }
+    .box-width{
+      width: max-content;
+    }
+  }  
+
+
+
