@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+Tech Stack: HTML,CSS,JS,React.js, Tailwind CSS, GSAP for Animations
+Tool: VS Code
+Hosting: Netlify
+
+Do check out the Website live: https://master--spurfit-assignment-koushik-koppolu00.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
